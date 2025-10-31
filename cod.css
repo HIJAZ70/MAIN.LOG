@@ -21,18 +21,14 @@
       padding-right:  1em;
 
     }
-nav {
-  position: fixed;        /* makes it stay in place */
-  top: 0;                 /* sticks it to the top */
-  left: 0;                /* aligns it to the left edge */
-  width: 100%;            /* spans across the screen */
-  background-color: #353535;
-  color: rgb(0, 0, 0);
-  border-radius: 0;       /* remove radius for a clean edge */
-  padding: 0.5em 1em;
-  z-index: 1000;          /* keeps it above other elements */
+nav{
+    background-color: #353535;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    border-radius: 5px;
+    padding-bottom: 0.50em;
+    padding-top: 0.50em;
 }
-
 
     .right-nav a:hover {
       color: #000000;
@@ -484,3 +480,4 @@ h3{
 }
 
      
+
